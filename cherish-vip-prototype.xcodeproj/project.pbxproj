@@ -1,0 +1,180 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B975AB4C08A1D84D /* CherishApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B975AB4C08A1D84C /* CherishApp.swift */; };
+		A38A8950C70D0623 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38A8950C70D0622 /* ContentView.swift */; };
+		CAD68A427D4A516B /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD68A427D4A516A /* Models.swift */; };
+		AAD6CD3ABACD6A1F /* YearPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD6CD3ABACD6A1E /* YearPickerView.swift */; };
+		180FB4BBCB946256 /* VIPSetupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180FB4BBCB946255 /* VIPSetupView.swift */; };
+		92BBC1A2B95A63A8 /* CandidateReviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92BBC1A2B95A63A7 /* CandidateReviewView.swift */; };
+		FA0988876CBE2B6F /* ResultsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0988876CBE2B6E /* ResultsView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B975AB4C08A1D84C /* CherishApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CherishApp.swift; sourceTree = "<group>"; };
+		A38A8950C70D0622 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CAD68A427D4A516A /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		AAD6CD3ABACD6A1E /* YearPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YearPickerView.swift; sourceTree = "<group>"; };
+		180FB4BBCB946255 /* VIPSetupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VIPSetupView.swift; sourceTree = "<group>"; };
+		92BBC1A2B95A63A7 /* CandidateReviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandidateReviewView.swift; sourceTree = "<group>"; };
+		FA0988876CBE2B6E /* ResultsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3C4D5E6F7A8B9C0D = {
+			isa = PBXGroup;
+			children = (
+				B975AB4C08A1D84C /* CherishApp.swift */,
+				A38A8950C70D0622 /* ContentView.swift */,
+				CAD68A427D4A516A /* Models.swift */,
+				AAD6CD3ABACD6A1E /* YearPickerView.swift */,
+				180FB4BBCB946255 /* VIPSetupView.swift */,
+				92BBC1A2B95A63A7 /* CandidateReviewView.swift */,
+				FA0988876CBE2B6E /* ResultsView.swift */,
+			);
+			path = "cherish-vip-prototype";
+			sourceTree = "<group>";
+		};
+		1A2B3C4D5E6F7A8BMAIN = {
+			isa = PBXGroup;
+			children = (
+				3C4D5E6F7A8B9C0D,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2B3C4D5E6F7A8B9C /* cherish-vip-prototype */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E6F7A8B9C0D1E2F;
+			buildPhases = (
+				0D1E2F3A4B5C6D7E /* Sources */,
+				1E2F3A4B5C6D7E8F /* Resources */,
+			);
+			buildRules = ();
+			dependencies = ();
+			name = "cherish-vip-prototype";
+			productName = "cherish-vip-prototype";
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1A2B3C4D5E6F7A8B /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 4D5E6F7A8B9C0D1E;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (en, Base);
+			mainGroup = 1A2B3C4D5E6F7A8BMAIN;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (2B3C4D5E6F7A8B9C);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1E2F3A4B5C6D7E8F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = ();
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0D1E2F3A4B5C6D7E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B975AB4C08A1D84D /* CherishApp.swift in Sources */,
+				A38A8950C70D0623 /* ContentView.swift in Sources */,
+				CAD68A427D4A516B /* Models.swift in Sources */,
+				AAD6CD3ABACD6A1F /* YearPickerView.swift in Sources */,
+				180FB4BBCB946256 /* VIPSetupView.swift in Sources */,
+				92BBC1A2B95A63A8 /* CandidateReviewView.swift in Sources */,
+				FA0988876CBE2B6F /* ResultsView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		6F7A8B9C0D1E2F3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		7A8B9C0D1E2F3A4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		8B9C0D1E2F3A4B5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cherish.vip-prototype";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Cherish needs access to your photos";
+			};
+			name = Debug;
+		};
+		9C0D1E2F3A4B5C6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cherish.vip-prototype";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4D5E6F7A8B9C0D1E /* Build configuration list for PBXProject */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (6F7A8B9C0D1E2F3A, 7A8B9C0D1E2F3A4B);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E6F7A8B9C0D1E2F /* Build configuration list for PBXNativeTarget */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (8B9C0D1E2F3A4B5C, 9C0D1E2F3A4B5C6D);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+	};
+	rootObject = 1A2B3C4D5E6F7A8B /* Project object */;
+}
