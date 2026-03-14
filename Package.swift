@@ -1,13 +1,15 @@
-// swift-tools-version: 5.7
+// swift-tools-version: 5.5
 import PackageDescription
 
 let package = Package(
-    name: "cherish-vip-prototype",
-    platforms: [.macOS(.v13)],
+    name: "CherishVIP",
+    platforms: [
+        .macOS(.v12)
+    ],
     targets: [
         .executableTarget(
-            name: "cherish-vip-prototype",
-            path: "cherish-vip-prototype"
+            name: "CherishVIP",
+            path: "Sources/CherishVIP"
         )
     ]
 )
